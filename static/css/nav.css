@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+.show{
+    display: flex;
+}
+.navbar{
+    color: white;
+    width: 300px;
+    height: 742px;
+    border-radius: 0px 108px 108px 0px;
+    background: #134eff;
+    font-family: sans-serif;
+    position: fixed;
+    display: inline-block;
+  
+}
+
+.profile {
+    width: 110px;
+    height: 110px;
+    flex-shrink: 0;
+    padding: 30px 50px;
+}
+.us{
+    display: inline-block;
+    padding: 6px 55px 30px 55px;
+    font-size: 25px;
+}
+
+h3{
+    display: inline-block;
+    padding: 20px 50px;
+    font-size: 23px;
+}
+.logout{
+    /* padding: 120px 0px 0px 60px; */
+    position: relative;
+    top: 120px;
+    left: 60px;
+}
+.logoutbtn{
+    width: 35px;
+    height: 35px;
+    padding: 20px 0px 0px 20px;
+}
+.home{
+    width: 40px;
+    height: 40px;
+    padding: 0px 0px 0px 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.image img{
+    width: 35px;
+    height: 35px;
+    padding: 30px 50px 0px 30px;
+
+}
+
+img.notification{
+    position: absolute;
+    right: 335px;
+}
+img.message{
+    position: absolute;
+    right: 210px;
+}
+
+.search{
+    position: absolute;
+    top: 30px;
+    left: 700px;
+    background-color: #d5daff;
+    width: 140px;
+    padding: 3px 100px;
+    border-radius: 35px;
+    cursor:pointer;
+}
+
+.search img{
+    position: relative;
+    left: 180px;
+    top: 2px;
+    width: 30px;
+    height: 30px;
+    
+}

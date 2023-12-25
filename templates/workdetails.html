@@ -1,0 +1,87 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/workdetail.css' %}" />
+  </head>
+  <body>
+    <div>
+      <span class="bar">
+        <a href="works"><img class="back" src="{% static 'images/back.png' %}" alt="back" /></a>
+        <p class="workdetail">Work Details</p>
+      </span>
+      <div class="workusername">
+        <img class="profile" src="{% static 'images/profile.png' %}" alt="profile" />
+        <p class="name">Abishek</p>
+      </div>
+      <p class="workname">
+        Next.js and Nodejs (Fullstack) Remote Intern Nextjs and Nodejs
+        (Fullstack) Remote Intern
+      </p>
+      <p class="posttime">Aug 01,2023</p>
+      <div class="box">
+        <p class="skillsrequired">Skills Required:</p>
+        <!-- siklls box add it here -->         
+        <div class="skillbox">
+          <div class="skills">HTML</div>
+          <div class="skills">CSS</div>
+          <div class="skills">JAVA</div>
+          <div class="skills">JAVASCRIPT</div>
+          <div class="skills">REACT</div>
+          <div class="skills">MORE+</div>
+        </div>
+
+        <span class="line"></span>
+        <img class="pay" src="{% static 'images/pay.png' %}" alt="pay" />
+        <p class="moneyforwork">$100-300</p>
+        <a href="#"><img class="share" src="{% static 'images/share.png' %}" alt="share" /></a>
+      </div>
+      <div class="workdescription">
+        <h2>Work Description:</h2>
+        <h4>Responsibilities:</h4>
+        <ul class="Responsibilities">
+          <li>
+            Coordinating with development teams to determine application
+            requirements.
+          </li>
+          <li>Writing scalable code using Python programming language.</li>
+          <li>Testing and debugging applications.</li>
+          <li>Developing back-end components.</li>
+          <li>Integrating user-facing elements using server-side logic.</li>
+          <li>Assessing and prioritising client feature requests.</li>
+          <li>Reprogramming existing databases to improve functionality.</li>
+          <li>Coordinating with front-end developers.</li>
+          <li>Developing digital tools to monitor online traffic.</li>
+          <li>Integrating data storage solutions.</li>
+        </ul>
+        <h3>Requirements:</h3>
+        <ul class="Requirements">
+          <li>
+            Bachelor's degree in computer science, computer engineering, or
+            related field.
+          </li>
+          <li>2-5 years of experience as a Python developer.</li>
+          <li>
+            Expert knowledge of Python and related frameworks including Django
+            and Flask.
+          </li>
+          <li>
+            A deep understanding and multi-process architecture and the
+            threading limitations of Python.
+          </li>
+          <li>
+            A deep understanding and multi-process architecture and the
+            threading limitations of Python.
+          </li>
+        </ul>
+        <a href="#"
+          ><button class="btn"><span>Apply</span></button
+          ><img class="applyarrow" src="{% static 'images/right-arrow.png' %}" alt="right-arrow"
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>

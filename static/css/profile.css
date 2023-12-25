@@ -1,0 +1,133 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.bar{
+    width: 680px;
+    height: 75px;
+    background-color: blue;
+    border-radius: 10px;
+    position: fixed;
+    left: 370px;
+    margin: 20px 10px;
+    z-index: 2;
+}
+
+.back{
+    width: 35px;
+    position: absolute;
+    top: 22px;
+    left: 30px;
+}
+.profile{
+    color: white;
+    position: relative;
+    top: 21px;
+    left: 75px;
+    font-size: x-large;
+    font-family: cursive;
+}
+.details{
+ display: grid;
+ grid-template-columns: 1fr 2fr 1fr;
+ padding: 120px 0px 0px 0px;
+ font-family: sans-serif;
+ font-size: 20px;
+}
+.username{
+    grid-column: 2/3;
+    /* padding: 0px 0px 20px 0px */
+}
+
+a{
+    grid-column: 2/3;
+}
+.edit{
+    position: relative;
+    left: 520px;
+    width: 80px;
+    height: 30px;
+    font-family: cursive;
+    border: none;
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.pen{
+    grid-column: 2/3;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 515px;
+}
+
+.profilephoto{
+    width: 90px;
+    /* grid-column: 2/3; */
+    padding: 0px 0px 20px 0px;
+}
+.profilename{
+    position: relative;
+    top: 30px;
+    left: 15px;
+    font-size: 30px;
+    font-family: math;
+}
+
+
+.about p{
+    padding: 10px;
+}
+
+.skills p{
+    padding: 10px;
+}
+.mywork p{
+    padding: 10px;
+}
+
+
+
+.oriname{
+    grid-column: 2/3;
+    display: flex;
+    padding-bottom: 10px;
+}
+.about{
+    grid-column: 2/3;
+    padding: 0px 0px 40px 0px;
+    padding-bottom: 10px;
+}
+.aboutdescription{
+    width: 550px;
+    height: 160px;
+    background-color: #abd8ff;
+    border-radius: 25px;
+    padding: 15px 0px 0px 15px;
+}
+.skills{
+    grid-column: 2/3;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.skillsdescrition{
+    width: 550px;
+    height: 160px;
+    background-color: #abd8ff;
+    border-radius: 25px;
+    padding: 15px;
+}
+.mywork{
+    grid-column: 2/3;
+    padding-bottom: 15px;
+}
+.myworkdescrition{
+    width: 550px;
+    height: 160px;
+    background-color: #abd8ff;
+    border-radius: 25px;
+    padding: 15px;
+}

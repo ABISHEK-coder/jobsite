@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.workshow {
+    display: inline-flex;
+    position: relative;
+    left: 40%;
+    top: 125px;
+}
+
+a .Works {
+    
+    font-size: x-large;
+    font-family: math;
+    font-weight: bold;
+    color: black;
+}
+a .Applied {
+    font-size: x-large;
+    font-family: math;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #003cff;
+    border-radius: 10px;
+    padding: 8px;
+    position: relative;
+    left: 460px;
+    display: inline-block;
+
+}
+
+a .Applied:hover {
+    background-color: #396bff;
+    /* color: #000; */
+    transition: .5s;
+}
+
+/* .round {
+    background-color: rgb(248 212 255);
+    border-radius: 10px;
+    padding: 8px;
+} */
+
+.round:hover {
+    background-color: rgb(235, 171, 235);
+    border-radius: 8px;
+    padding: 4px;
+    transition: .1s;
+}
+
+.gird {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    gap: 45px 0px;
+}
+
+.col-1 {
+    background-color: #ededed;
+    width: 440px;
+    height: 350px;
+    position: relative;
+    top: 50%;
+    left: 160px;
+    border-radius: 20px;
+}
+
+.col-1:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px;
+    transition: .5s;
+}
+
+.gird .col-1 h6 {
+    color: #000;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+a div {
+    color: #000;
+}
+
+.gird .col-1 p {
+    padding: 0px 20px;
+    position: relative;
+    top: -7px;
+}
+
+.skillbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px 10px 15px 10px;
+}
+
+.skills {
+    background-color: blue;
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+    color: white;
+    font-family: cursive;
+    border-radius: 10px;
+}
+
+.skillsrequired {
+    margin: -10px 0px 3px 0px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.col-1 .posteddate {
+    font-size: smaller;
+    font-weight: bold;
+    display: inline-block;
+    left: 320px;
+}
+
+.postedby {
+    margin: 3px 0px;
+}
+
+.postername {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.msg{
+    position: relative;
+    top: -35px;
+    left: 70%;
+    cursor: pointer;
+    display: inline-block;
+}

@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.bar{
+    width: 600px;
+    height: 75px;
+    background-color: blue;
+    border-radius: 10px;
+    position: fixed;
+    left: 385px;
+    margin: 20px 10px;
+}
+
+.back{
+    width: 35px;
+    position: absolute;
+    top: 22px;
+    left: 30px;
+}
+.Message{
+    color: white;
+    position: absolute;
+    top: 21px;
+    left: 75px;
+    font-size: x-large;
+    font-family: cursive;
+}
+
+
+.profile{
+    position: relative;
+    width: 77px;
+    left: 31%;
+    top: 133px;
+}
+
+.chat .name {
+    position: absolute;
+    top: 148px;
+    left: 560px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.sent{
+    width: 20px;
+    position: absolute;
+    top: 180px;
+    left: 560px;
+}
+.chatmessage{
+    position: absolute;
+    top: 180px;
+    left: 585px;
+}
+
+.Messagetime{
+    position: relative;
+    left: 54%;
+    top: 90px;
+    font-family: sans-serif;
+    display: inline-block;
+}

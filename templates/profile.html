@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% load static %} 
+    {% block extrahead %}
+    <link rel="stylesheet" href="{% static 'css/profile.css' %}" />
+    {% endblock %}
+     {% block title %} 
+     {% endblock title %}
+</head>
+
+<body>
+    <div class="grid">
+        <span class="bar">
+            <a href="/"><img class="back" src="{% static 'images/back.png' %}" alt="back" /></a>
+            <p class="profile">Profile</p>
+        </span>
+        <div class="details">
+            <p class="username">@Abishek_143</p>
+
+            <!-- <input class="edit" type="button" value="Edit"> -->
+
+            <a href="">
+                <!-- <button class="edit">Edit</button> -->
+                <img class="pen" src="{% static 'images/pen.png' %}" alt="Edit" />
+            </a>
+
+            <div class="oriname">
+                <img class="profilephoto" src="{% static 'images/profile.png' %}" alt="profile" />
+                <p class="profilename">Abishek S</p>
+            </div>
+            <div class="about">
+                <p>About yourself</p>
+                <p class="aboutdescription">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
+                    blanditiis impedit sequi perferendis doloribus, qui inventore quidem
+                    sit, sunt assumenda magnam, nam quas ab eveniet cumque autem
+                    molestias quo exercitationem.
+                </p>
+            </div>
+            <div class="skills">
+                <p>Skills</p>
+                <p class="skillsdescrition">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
+                    blanditiis impedit sequi perferendis doloribus, qui inventore quidem
+                    sit, sunt assumenda magnam, nam quas ab eveniet cumque autem
+                    molestias quo exercitationem.
+                </p>
+            </div>
+            <div class="mywork">
+                <p>My work</p>
+                <p class="myworkdescrition">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
+                    blanditiis impedit sequi perferendis doloribus, qui inventore quidem
+                    sit, sunt assumenda magnam, nam quas ab eveniet cumque autem
+                    molestias quo exercitationem.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

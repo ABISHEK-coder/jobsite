@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Message - Page</title>
+
+  <link rel="stylesheet" href="{% static 'css/chat.css' %}" />
+</head>
+<!-- {% block title %}
+
+{% endblock title %} -->
+<body>
+  <div>
+    <span class="bar">
+      <a href="works"><img class="back" src="{% static 'images/back.png' %}" alt="back" /></a>
+      <p class="Message">Message</p>
+    </span>
+    <div class="chat">
+      <img class="profile" src="{% static 'images/profile.png' %}" alt="profile" />
+      <p class="name">ABisheK</p>
+      <img class="sent" src="{% static 'images/sent.png' %}" alt="send">
+      <p class="chatmessage">Hi How can i help you?</p>
+      <p class="Messagetime">08:30 AM</p>
+    </div>
+    <!-- <div class="chat">
+        <img class="profile" src="profile.png" alt="profile" />
+        <p class="name">ABisheK</p>
+        <img class="sent" src="sent.png" alt="send">
+        <p class="chatmessage">Hi How can i help you?</p>
+        <p class="Messagetime">08:30 AM</p>
+      </div> -->
+  </div>
+</body>
+
+</html>

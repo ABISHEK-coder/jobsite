@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+h6{
+    font-family: sans-serif;
+    color: #003cff;
+    position: absolute;
+    top: 35px;
+    left: 380px;
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+
+.container .postname{
+    display: inline-block;
+    color: black;
+    position: absolute;
+    top: 195px;
+    left: 480px;
+    font-size: larger;
+}
+.container .user {
+    position: relative;
+    top: 176px;
+    left: 395px;
+    width: 65px;
+}
+
+.container .post{
+    position: relative;
+    top: 160px;
+    left: 480px;
+    border-radius: 20px;
+}
+.container .blog{
+    display: inline-block;
+    position: relative;
+    left: 325px;
+    top: 375px;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.bloguser{
+    position: relative;
+    top: 340px;
+    left: 395px;
+    width: 65px;
+}
+.blogpostname{
+    display: inline-block;
+    position: relative;
+    top: 315px;
+    left: 415px;
+    font-size: larger;
+}
+
+/* p.postedtime{
+    display: inline-block;
+    position: relative;
+    top: 316px;
+    font-weight: bolder;
+    font-family: math;
+    right: 40px;
+} */
+p.article{
+    position: absolute;
+    left: 528px;
+    top: 990px;
+    font-size: larger;
+    font-family: cursive;
+    width: 50%;
+    
+}
+
+/* .grid{
+    display: grid;
+
+} */

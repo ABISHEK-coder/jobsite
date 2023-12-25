@@ -1,0 +1,38 @@
+{% load static %}
+{% block extrahead %}
+<link rel="stylesheet" href="{% static 'css/nav.css' %}" />
+{% endblock %}
+
+
+
+{% block content %}
+
+<div class="grid">
+  <div class="show">
+    <h6>ABISHEK</h6>
+    <div class="navbar">
+      <img class="profile" src="{% static 'images/profile.png' %}" alt="profile" />
+      <a href="profile">
+        <h1 class="us">Username</h1>
+      </a>
+      <h3><a href="/">Social</a></h3>
+
+      <h3><a href="works">Works</a></h3>
+      <h3><a href="post">Post</a></h3>
+
+      <a href="">
+        <h2 class="logout">Logout<img class="logoutbtn" src="{% static 'images/check-out.png' %}" alt="Logout" /></h2>
+      </a>
+    </div>
+    <div class="image">
+      <a href="notification"><img class="notification" src="{% static 'images/notification.png' %}"
+          alt="notification" /></a>
+      <a href="chat"><img class="message" src="{% static 'images/chat.png' %}" alt="message" /></a>
+    </div>
+  </div>
+  <div class="search">
+    <img src="{% static 'images/search.png' %}" alt="search" />
+  </div>
+</div>
+
+{% endblock content %}
